@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class ViewController: UIViewController {
+class QuestGenderViewController: UIViewController {
 
     @IBOutlet weak var maleButton: CustomButton!
     @IBOutlet weak var femaleButton: CustomButton!
