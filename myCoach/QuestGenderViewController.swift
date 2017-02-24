@@ -13,25 +13,19 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var maleButton: CustomButton!
     @IBOutlet weak var femaleButton: CustomButton!
-    @IBOutlet weak var otherButton: CustomButton!
     @IBOutlet weak var questionLabel: QuestionLabel!
     
     
-    internal func customizeUI () {
-        
+    internal func customizeUI () {   
         questionLabel.setFontFamily()
         maleButton.addBorder()
         femaleButton.addBorder()
-        otherButton.addBorder()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         customizeUI()
-        
-        print("ViewController loaded")
-        
     }
     
     override func didReceiveMemoryWarning() {
