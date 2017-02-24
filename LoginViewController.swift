@@ -25,9 +25,7 @@ class LoginViewController: UIViewController {
         let passwordMatched = confirmPasswordMatch()
         
         if hasEmail && hasPassword && hasConfirmedPassword && passwordMatched {
-            
             sendDataToFirebase()
-            
         }
     }
     
@@ -84,7 +82,6 @@ class LoginViewController: UIViewController {
         
         if textField.text == "" {
             showAlert(title: "Error", message: "Please enter with E-mail and Password")
-            
             isEmpty = false
         }
         
@@ -110,6 +107,5 @@ class LoginViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
     }
 }

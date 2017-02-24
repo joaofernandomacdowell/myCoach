@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A57748C0A8F5B747419CA1DA /* Pods_myCoach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD46EFD1A85505987669497 /* Pods_myCoach.framework */; };
 		CF4622901E5557AD0022D7A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46228F1E5557AD0022D7A1 /* AppDelegate.swift */; };
-		CF4622921E5557AD0022D7A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4622911E5557AD0022D7A1 /* ViewController.swift */; };
+		CF4622921E5557AD0022D7A1 /* QuestGenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4622911E5557AD0022D7A1 /* QuestGenderViewController.swift */; };
 		CF4622951E5557AD0022D7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4622931E5557AD0022D7A1 /* Main.storyboard */; };
 		CF4622971E5557AD0022D7A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4622961E5557AD0022D7A1 /* Assets.xcassets */; };
 		CF46229A1E5557AD0022D7A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4622981E5557AD0022D7A1 /* LaunchScreen.storyboard */; };
@@ -31,6 +31,9 @@
 		CF8A8B5C1E5E34E500060A34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8A8B5B1E5E34E500060A34 /* GoogleService-Info.plist */; };
 		CFDD13481E5E58FC00B1E85E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD13471E5E58FC00B1E85E /* LoginViewController.swift */; };
 		CFDD134C1E5E71A700B1E85E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD134B1E5E71A700B1E85E /* CustomTextField.swift */; };
+		CFE09E6D1E60B14400C7932C /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE09E6C1E60B14400C7932C /* PageContentViewController.swift */; };
+		CFE09E6F1E60E36800C7932C /* sign-in-google.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE09E6E1E60E36800C7932C /* sign-in-google.png */; };
+		CFE09E711E60E39A00C7932C /* sign-in-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE09E701E60E39A00C7932C /* sign-in-facebook.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +41,7 @@
 		613DEC22AAB4C4AE810277C1 /* Pods-myCoach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCoach.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myCoach/Pods-myCoach.debug.xcconfig"; sourceTree = "<group>"; };
 		CF46228C1E5557AD0022D7A1 /* myCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF46228F1E5557AD0022D7A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF4622911E5557AD0022D7A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF4622911E5557AD0022D7A1 /* QuestGenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestGenderViewController.swift; sourceTree = "<group>"; };
 		CF4622941E5557AD0022D7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF4622961E5557AD0022D7A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4622991E5557AD0022D7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +64,9 @@
 		CF8A8B5B1E5E34E500060A34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CFDD13471E5E58FC00B1E85E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		CFDD134B1E5E71A700B1E85E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CFE09E6C1E60B14400C7932C /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		CFE09E6E1E60E36800C7932C /* sign-in-google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-google.png"; sourceTree = "<group>"; };
+		CFE09E701E60E39A00C7932C /* sign-in-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-facebook.png"; sourceTree = "<group>"; };
 		F66DAD33F5C844028AB43B45 /* Pods-myCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCoach.release.xcconfig"; path = "Pods/Target Support Files/Pods-myCoach/Pods-myCoach.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +173,8 @@
 		CF5DA7AD1E5F87F300545C6F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CFE09E701E60E39A00C7932C /* sign-in-facebook.png */,
+				CFE09E6E1E60E36800C7932C /* sign-in-google.png */,
 				CF5DA7AE1E5F883200545C6F /* mycoach-logo.png */,
 			);
 			name = Images;
@@ -176,9 +184,10 @@
 			isa = PBXGroup;
 			children = (
 				CFDD13471E5E58FC00B1E85E /* LoginViewController.swift */,
-				CF4622911E5557AD0022D7A1 /* ViewController.swift */,
+				CF4622911E5557AD0022D7A1 /* QuestGenderViewController.swift */,
 				CF5DA7A61E5F442C00545C6F /* InitialViewController.swift */,
 				CF5DA7A81E5F628B00545C6F /* HistoryViewController.swift */,
+				CFE09E6C1E60B14400C7932C /* PageContentViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -256,8 +265,10 @@
 			files = (
 				CF4622C21E574B970022D7A1 /* OpenSans-Semibold.ttf in Resources */,
 				CF4622C31E574B970022D7A1 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				CFE09E711E60E39A00C7932C /* sign-in-facebook.png in Resources */,
 				CF46229A1E5557AD0022D7A1 /* LaunchScreen.storyboard in Resources */,
 				CF4622C11E574B970022D7A1 /* OpenSans-Regular.ttf in Resources */,
+				CFE09E6F1E60E36800C7932C /* sign-in-google.png in Resources */,
 				CF4622BE1E574B970022D7A1 /* OpenSans-Italic.ttf in Resources */,
 				CF4622BD1E574B970022D7A1 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				CF4622971E5557AD0022D7A1 /* Assets.xcassets in Resources */,
@@ -327,8 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE09E6D1E60B14400C7932C /* PageContentViewController.swift in Sources */,
 				CFDD13481E5E58FC00B1E85E /* LoginViewController.swift in Sources */,
-				CF4622921E5557AD0022D7A1 /* ViewController.swift in Sources */,
+				CF4622921E5557AD0022D7A1 /* QuestGenderViewController.swift in Sources */,
 				CFDD134C1E5E71A700B1E85E /* CustomTextField.swift in Sources */,
 				CF4622901E5557AD0022D7A1 /* AppDelegate.swift in Sources */,
 				CF4622C61E574D710022D7A1 /* QuestionLabel.swift in Sources */,
