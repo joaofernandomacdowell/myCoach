@@ -244,10 +244,10 @@
             </objects>
             <point key="canvasLocation" x="-952.5" y="35.91549295774648"/>
         </scene>
-        <!--Login View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="RE1-cS-eSm">
             <objects>
-                <viewController id="SUA-KH-dtG" customClass="LoginViewController" customModule="myCoach" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SUA-KH-dtG" customClass="SignUpViewController" customModule="myCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zsl-2f-KZP"/>
                         <viewControllerLayoutGuide type="bottom" id="AwS-3h-ZeM"/>
@@ -256,32 +256,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-MAIL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x0p-VU-KDY" customClass="CustomTextField" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="16" y="148" width="288" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-MAIL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x0p-VU-KDY" customClass="CustomTextField" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="34" y="112" width="252" height="20"/>
                                 <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="00I-MN-2JX" customClass="CustomTextField" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="16" y="200" width="288" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="00I-MN-2JX" customClass="CustomTextField" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="34" y="164" width="252" height="20"/>
                                 <color key="tintColor" red="0.11372549019607843" green="0.92152235243055558" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="light" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="CONFIRM PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bGu-fg-vCl" customClass="CustomTextField" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="16" y="252" width="288" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="CONFIRM PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bGu-fg-vCl" customClass="CustomTextField" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="34" y="216" width="252" height="20"/>
                                 <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="light" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLd-st-iwN" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="32" y="314" width="255" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLd-st-iwN" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="34" y="268" width="252" height="40"/>
                                 <color key="backgroundColor" red="0.11372549019607843" green="0.24313725490196078" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8Pe-u9-yXB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="SIGN UP!">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -290,37 +289,70 @@
                                     <action selector="createAccountBt:" destination="SUA-KH-dtG" eventType="touchUpInside" id="QtX-pA-vLU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abi-5G-jiF">
-                                <rect key="frame" x="132" y="518" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Go back">
-                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="g5H-xP-raA" kind="show" id="G4q-iZ-9nr"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sign-in-google.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6N-US-ngR">
-                                <rect key="frame" x="60" y="385" width="200" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sign-in-facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="dAb-TG-YUW">
-                                <rect key="frame" x="60" y="434" width="200" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <navigationBar contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0zb-Vu-hdu">
-                                <rect key="frame" x="-1" y="0.0" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <navigationBar contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="0zb-Vu-hdu">
+                                <rect key="frame" x="-1" y="0.0" width="320" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Qk6-OT-Mg2"/>
+                                </constraints>
                                 <color key="barTintColor" red="0.11372549019607843" green="0.24313725490196078" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="CREATE AN ACCOUNT" id="kIt-kO-zLe"/>
+                                    <navigationItem title="SIGN UP" id="kIt-kO-zLe">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="442-2H-79l">
+                                            <color key="tintColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MP6-ip-doX">
+                                <rect key="frame" x="149" y="335" width="22" height="20"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="839-sO-MXI">
+                                <rect key="frame" x="16" y="385" width="288" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sign-in-google.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6N-US-ngR">
+                                        <rect key="frame" x="44" y="0.0" width="200" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sign-in-facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="dAb-TG-YUW">
+                                        <rect key="frame" x="44" y="44" width="200" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="bGu-fg-vCl" secondAttribute="trailing" constant="18" id="21R-II-13Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="x0p-VU-KDY" secondAttribute="trailing" constant="18" id="4nw-CA-SCR"/>
+                            <constraint firstItem="00I-MN-2JX" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="9nt-EG-vW1"/>
+                            <constraint firstItem="00I-MN-2JX" firstAttribute="top" secondItem="x0p-VU-KDY" secondAttribute="bottom" constant="32" id="ENs-Yf-AKW"/>
+                            <constraint firstItem="MP6-ip-doX" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="Fh5-tB-Aij"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="00I-MN-2JX" secondAttribute="trailing" constant="18" id="JNW-eY-HeU"/>
+                            <constraint firstItem="pLd-st-iwN" firstAttribute="top" secondItem="bGu-fg-vCl" secondAttribute="bottom" constant="32" id="Jv7-ay-l6K"/>
+                            <constraint firstItem="MP6-ip-doX" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="133" id="LgT-fE-aGC"/>
+                            <constraint firstItem="0zb-Vu-hdu" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="-17" id="LwX-vS-5Dd"/>
+                            <constraint firstItem="x0p-VU-KDY" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="18" id="MZq-Cd-mGI"/>
+                            <constraint firstItem="x0p-VU-KDY" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="NCD-8Q-inF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pLd-st-iwN" secondAttribute="trailing" constant="18" id="OTF-Fp-4aS"/>
+                            <constraint firstItem="x0p-VU-KDY" firstAttribute="top" secondItem="0zb-Vu-hdu" secondAttribute="bottom" constant="52" id="RSp-lt-glL"/>
+                            <constraint firstItem="pLd-st-iwN" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="18" id="V4e-RA-GuR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0zb-Vu-hdu" secondAttribute="trailing" constant="-15" id="VEE-0k-ESv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MP6-ip-doX" secondAttribute="trailing" constant="133" id="VZC-Rq-Ers"/>
+                            <constraint firstItem="MP6-ip-doX" firstAttribute="top" secondItem="pLd-st-iwN" secondAttribute="bottom" constant="27" id="bKO-IX-5j9"/>
+                            <constraint firstItem="pLd-st-iwN" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="cTs-X8-Tha"/>
+                            <constraint firstItem="0zb-Vu-hdu" firstAttribute="top" secondItem="yEc-XW-kRS" secondAttribute="top" id="gQd-kR-jUw"/>
+                            <constraint firstItem="00I-MN-2JX" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="18" id="gan-sT-d5I"/>
+                            <constraint firstItem="bGu-fg-vCl" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="gzt-kH-tRd"/>
+                            <constraint firstItem="bGu-fg-vCl" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="18" id="pmz-jC-N3k"/>
+                            <constraint firstItem="bGu-fg-vCl" firstAttribute="top" secondItem="00I-MN-2JX" secondAttribute="bottom" constant="32" id="vcD-DO-Vbq"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <connections>

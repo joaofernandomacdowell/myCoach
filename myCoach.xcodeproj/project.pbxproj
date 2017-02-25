@@ -29,7 +29,7 @@
 		CF5DA7A91E5F628B00545C6F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DA7A81E5F628B00545C6F /* HistoryViewController.swift */; };
 		CF5DA7AF1E5F883200545C6F /* mycoach-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5DA7AE1E5F883200545C6F /* mycoach-logo.png */; };
 		CF8A8B5C1E5E34E500060A34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8A8B5B1E5E34E500060A34 /* GoogleService-Info.plist */; };
-		CFDD13481E5E58FC00B1E85E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD13471E5E58FC00B1E85E /* LoginViewController.swift */; };
+		CFDD13481E5E58FC00B1E85E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD13471E5E58FC00B1E85E /* SignUpViewController.swift */; };
 		CFDD134C1E5E71A700B1E85E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD134B1E5E71A700B1E85E /* CustomTextField.swift */; };
 		CFE09E6D1E60B14400C7932C /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE09E6C1E60B14400C7932C /* PageContentViewController.swift */; };
 		CFE09E6F1E60E36800C7932C /* sign-in-google.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE09E6E1E60E36800C7932C /* sign-in-google.png */; };
@@ -62,7 +62,7 @@
 		CF5DA7A81E5F628B00545C6F /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		CF5DA7AE1E5F883200545C6F /* mycoach-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycoach-logo.png"; sourceTree = "<group>"; };
 		CF8A8B5B1E5E34E500060A34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		CFDD13471E5E58FC00B1E85E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		CFDD13471E5E58FC00B1E85E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
 		CFDD134B1E5E71A700B1E85E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CFE09E6C1E60B14400C7932C /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
 		CFE09E6E1E60E36800C7932C /* sign-in-google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-google.png"; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 		CFDD13491E5E59A300B1E85E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CFDD13471E5E58FC00B1E85E /* LoginViewController.swift */,
+				CFDD13471E5E58FC00B1E85E /* SignUpViewController.swift */,
 				CF4622911E5557AD0022D7A1 /* QuestGenderViewController.swift */,
 				CF5DA7A61E5F442C00545C6F /* InitialViewController.swift */,
 				CF5DA7A81E5F628B00545C6F /* HistoryViewController.swift */,
@@ -339,7 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE09E6D1E60B14400C7932C /* PageContentViewController.swift in Sources */,
-				CFDD13481E5E58FC00B1E85E /* LoginViewController.swift in Sources */,
+				CFDD13481E5E58FC00B1E85E /* SignUpViewController.swift in Sources */,
 				CF4622921E5557AD0022D7A1 /* QuestGenderViewController.swift in Sources */,
 				CFDD134C1E5E71A700B1E85E /* CustomTextField.swift in Sources */,
 				CF4622901E5557AD0022D7A1 /* AppDelegate.swift in Sources */,
