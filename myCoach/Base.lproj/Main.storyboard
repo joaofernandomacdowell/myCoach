@@ -49,7 +49,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gk3-l0-Wf6" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="213" width="230" height="45"/>
+                                <rect key="frame" x="45" y="213.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="hJf-kT-sMh"/>
                                 </constraints>
@@ -59,7 +59,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oml-lE-CHR" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="278" width="230" height="45"/>
+                                <rect key="frame" x="45" y="278.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="bsr-JM-ftj"/>
                                 </constraints>
@@ -152,7 +152,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUD-z1-7tQ" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="213" width="230" height="45"/>
+                                <rect key="frame" x="45" y="213.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="fcF-A7-Rgh"/>
                                 </constraints>
@@ -162,7 +162,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4Z-YO-0Sk" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="278" width="230" height="45"/>
+                                <rect key="frame" x="45" y="278.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="bxW-H8-hXh"/>
                                 </constraints>
@@ -172,7 +172,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-Sm-34U" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="343" width="230" height="45"/>
+                                <rect key="frame" x="45" y="343.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="JFF-uj-TME"/>
                                 </constraints>
@@ -231,7 +231,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VjH-md-VbQ" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="213" width="230" height="45"/>
+                                <rect key="frame" x="45" y="213.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="H73-RZ-OKb"/>
                                 </constraints>
@@ -241,7 +241,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiY-zN-mqq" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="278" width="230" height="45"/>
+                                <rect key="frame" x="45" y="278.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="eCD-KZ-cSY"/>
                                 </constraints>
@@ -251,7 +251,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3G-AA-vPK" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="343" width="230" height="45"/>
+                                <rect key="frame" x="45" y="343.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="DeI-yQ-4kc"/>
                                 </constraints>
@@ -261,7 +261,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDa-3i-wL9" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="408" width="230" height="45"/>
+                                <rect key="frame" x="45" y="408.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="pcw-NK-eL5"/>
                                 </constraints>
@@ -326,7 +326,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSF-rg-59e" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="213" width="230" height="45"/>
+                                <rect key="frame" x="45" y="213.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="LGj-2v-3yg"/>
                                 </constraints>
@@ -336,7 +336,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ly3-g3-Lkx" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="278" width="230" height="45"/>
+                                <rect key="frame" x="45" y="278.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="ifZ-mQ-hCP"/>
                                 </constraints>
@@ -346,7 +346,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWU-cH-EWG" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="343" width="230" height="45"/>
+                                <rect key="frame" x="45" y="343.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="MSv-vY-kjF"/>
                                 </constraints>
@@ -356,7 +356,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3Q-f1-7ot" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="408" width="230" height="45"/>
+                                <rect key="frame" x="45" y="408.5" width="230" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="6i2-8t-HdH"/>
                                 </constraints>
@@ -481,13 +481,14 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="myCoach is here to help you achieve a healthy lifestyle" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m83-iH-YiD">
                                 <rect key="frame" x="40" y="220" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="UvZ-Y6-8aj"/>
+                                    <constraint firstAttribute="width" constant="240" id="VSE-SM-Jcy"/>
+                                </constraints>
                                 <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mycoach-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="48d-CS-6r5">
-                                <rect key="frame" x="84" y="60" width="152" height="46"/>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FCt-nT-Ncd">
                                 <rect key="frame" x="0.0" y="526" width="320" height="42"/>
                                 <subviews>
@@ -530,6 +531,9 @@
                                     <constraint firstAttribute="bottom" secondItem="3Hh-f1-uac" secondAttribute="bottom" id="z5n-be-6P0"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mycoach-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="48d-CS-6r5">
+                                <rect key="frame" x="84" y="20" width="152" height="138"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.08235294118" green="0.18823529410000001" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -539,13 +543,9 @@
                             <constraint firstItem="FCt-nT-Ncd" firstAttribute="leading" secondItem="EpK-d1-YGy" secondAttribute="leading" id="JRa-kg-xXQ"/>
                             <constraint firstAttribute="trailing" secondItem="48d-CS-6r5" secondAttribute="trailing" constant="84" id="K2n-Eu-SdX"/>
                             <constraint firstItem="FCt-nT-Ncd" firstAttribute="width" secondItem="EpK-d1-YGy" secondAttribute="width" id="KcI-DT-puC"/>
-                            <constraint firstItem="FCt-nT-Ncd" firstAttribute="top" secondItem="m83-iH-YiD" secondAttribute="bottom" constant="178" id="NGK-Fz-jm8"/>
-                            <constraint firstItem="m83-iH-YiD" firstAttribute="leading" secondItem="EpK-d1-YGy" secondAttribute="leadingMargin" constant="24" id="Q4y-H0-0RI"/>
                             <constraint firstItem="LJB-bX-LzG" firstAttribute="top" secondItem="FCt-nT-Ncd" secondAttribute="bottom" id="RPg-iG-clW"/>
                             <constraint firstItem="m83-iH-YiD" firstAttribute="centerY" secondItem="EpK-d1-YGy" secondAttribute="centerY" id="Xn3-rs-sgf"/>
-                            <constraint firstItem="m83-iH-YiD" firstAttribute="top" secondItem="48d-CS-6r5" secondAttribute="bottom" constant="114" id="gff-yS-MxT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="m83-iH-YiD" secondAttribute="trailing" constant="24" id="hPw-A0-MBd"/>
-                            <constraint firstItem="48d-CS-6r5" firstAttribute="top" secondItem="bM0-44-Khg" secondAttribute="bottom" constant="40" id="wus-I8-OrV"/>
+                            <constraint firstItem="48d-CS-6r5" firstAttribute="top" secondItem="bM0-44-Khg" secondAttribute="bottom" id="wus-I8-OrV"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -607,20 +607,6 @@
                                 <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="839-sO-MXI">
-                                <rect key="frame" x="16" y="385" width="288" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sign-in-google.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6N-US-ngR">
-                                        <rect key="frame" x="44" y="0.0" width="200" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sign-in-facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="dAb-TG-YUW">
-                                        <rect key="frame" x="44" y="44" width="200" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="175-32-byn">
                                 <rect key="frame" x="34" y="276" width="252" height="40"/>
                                 <color key="backgroundColor" red="0.11372549019607843" green="0.24313725490196078" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
@@ -635,18 +621,36 @@
                                     <action selector="signUpButton:" destination="SUA-KH-dtG" eventType="touchUpInside" id="9XK-Aj-qEw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Q0-Hp-WHU">
+                                <rect key="frame" x="60" y="384" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0D1-W2-abq"/>
+                                    <constraint firstAttribute="height" constant="40" id="bay-Mk-JC0"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="sign-in-google.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZj-Rm-F5n">
+                                <rect key="frame" x="60" y="428" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="iGW-qo-xjp"/>
+                                    <constraint firstAttribute="height" constant="40" id="zc8-AR-c1X"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="sign-in-facebook.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="bGu-fg-vCl" secondAttribute="trailing" constant="18" id="21R-II-13Z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="x0p-VU-KDY" secondAttribute="trailing" constant="18" id="4nw-CA-SCR"/>
                             <constraint firstItem="00I-MN-2JX" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="9nt-EG-vW1"/>
+                            <constraint firstItem="8Q0-Hp-WHU" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="BjC-2z-8xX"/>
                             <constraint firstItem="00I-MN-2JX" firstAttribute="top" secondItem="x0p-VU-KDY" secondAttribute="bottom" constant="32" id="ENs-Yf-AKW"/>
                             <constraint firstItem="MP6-ip-doX" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="Fh5-tB-Aij"/>
                             <constraint firstItem="175-32-byn" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="18" id="GiV-3h-bNY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="00I-MN-2JX" secondAttribute="trailing" constant="18" id="JNW-eY-HeU"/>
                             <constraint firstItem="MP6-ip-doX" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="133" id="LgT-fE-aGC"/>
                             <constraint firstItem="0zb-Vu-hdu" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="-17" id="LwX-vS-5Dd"/>
+                            <constraint firstItem="JZj-Rm-F5n" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="MKi-X5-2VJ"/>
                             <constraint firstItem="x0p-VU-KDY" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="18" id="MZq-Cd-mGI"/>
                             <constraint firstItem="x0p-VU-KDY" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="NCD-8Q-inF"/>
                             <constraint firstItem="x0p-VU-KDY" firstAttribute="top" secondItem="0zb-Vu-hdu" secondAttribute="bottom" constant="52" id="RSp-lt-glL"/>
@@ -659,8 +663,10 @@
                             <constraint firstItem="00I-MN-2JX" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="18" id="gan-sT-d5I"/>
                             <constraint firstItem="175-32-byn" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="gva-49-uo6"/>
                             <constraint firstItem="bGu-fg-vCl" firstAttribute="centerX" secondItem="yEc-XW-kRS" secondAttribute="centerX" id="gzt-kH-tRd"/>
+                            <constraint firstItem="JZj-Rm-F5n" firstAttribute="top" secondItem="8Q0-Hp-WHU" secondAttribute="bottom" constant="4" id="jvi-J6-SB6"/>
                             <constraint firstItem="bGu-fg-vCl" firstAttribute="leading" secondItem="yEc-XW-kRS" secondAttribute="leadingMargin" constant="18" id="pmz-jC-N3k"/>
                             <constraint firstItem="bGu-fg-vCl" firstAttribute="top" secondItem="00I-MN-2JX" secondAttribute="bottom" constant="32" id="vcD-DO-Vbq"/>
+                            <constraint firstItem="8Q0-Hp-WHU" firstAttribute="top" secondItem="MP6-ip-doX" secondAttribute="bottom" constant="28.5" id="w1A-0E-YnR"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
