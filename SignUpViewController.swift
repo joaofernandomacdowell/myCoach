@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FBSDKLoginKit
 
 class SignUpViewController: UIViewController {
 
@@ -27,7 +28,41 @@ class SignUpViewController: UIViewController {
             sendDataToFirebase()
         }
     }
-        
+    
+    @IBAction func facebookLogin(sender: UIButton) {
+        let fbLoginManager = FBSDKLoginManager()
+        fbLoginManager.logIn(withReadPermissions: ["public_profile", "email"], from: self) { (result, error) in
+            if let error = error {
+                print("Failed to login: \(error.localizedDescription)")
+                return
+            }
+            
+            guard let accessToken = FBSDKAccessToken.current() else {
+                print("Failed to get access token")
+                return
+            }
+            
+            let credential = FIRFacebookAuthProvider.credential(withAccessToken: accessToken.tokenString)
+            
+            // Perform login by calling Firebase APIs
+            FIRAuth.auth()?.signIn(with: credential, completion: { (user, error) in
+                if let error = error {
+                    print("Login error: \(error.localizedDescription)")
+                    self.showAlert(title: "Login Error", message: (error.localizedDescription))
+                    
+                    return
+                }
+                
+                // Present the main view
+                if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "History") {
+                    UIApplication.shared.keyWindow?.rootViewController = viewController
+                    self.dismiss(animated: true, completion: nil)
+                }
+                
+            })
+        }
+    }
+    
     public func goToView(viewIdentifier: String) {
         let viewController = self.storyboard?.instantiateViewController(withIdentifier: viewIdentifier)
         self.present(viewController!, animated: true, completion: nil)
@@ -40,25 +75,18 @@ class SignUpViewController: UIViewController {
                 print("You have successfully signed up")
                 //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
                 
-//                let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
-//                self.present(vc!, animated: true, completion: nil)
-                
             } else {
                 self.showAlert(title: "Error", message: (error?.localizedDescription)!)
             }
         }
     }
-    
 
     internal func showAlert(title: String, message: String) {
-    
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        
         let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        
         alertController.addAction(defaultAction)
-        
         present(alertController, animated: true, completion: nil)
-        
     }
     
     internal func confirmPasswordMatch() -> Bool {
