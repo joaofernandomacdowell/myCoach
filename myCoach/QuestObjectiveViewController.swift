@@ -15,6 +15,41 @@ class QuestObjectiveViewController: UIViewController {
     @IBOutlet weak var weightLossButton: CustomButton!
     @IBOutlet weak var psychologicalHealth: CustomButton!
     
+    var objective: String = ""
+    
+    @IBAction func onClickPhysicalHealth(_ sender: Any) {
+        objective = "physical health"
+        physicalHealthButton.setActive()
+        strengtheningButton.setInactive()
+        weightLossButton.setInactive()
+        psychologicalHealth.setInactive()
+    }
+    
+    @IBAction func onClickStrengthening(_ sender: Any) {
+        objective = "strangthening"
+        strengtheningButton.setActive()
+        physicalHealthButton.setInactive()
+        weightLossButton.setInactive()
+        psychologicalHealth.setInactive()
+    }
+    
+    
+    @IBAction func onClickWeightLoss(_ sender: Any) {
+        objective = "weight loss"
+        weightLossButton.setActive()
+        physicalHealthButton.setInactive()
+        strengtheningButton.setInactive()
+        psychologicalHealth.setInactive()
+    }
+    
+    
+    @IBAction func onClickPychologicalHealth(_ sender: Any) {
+        objective = "pychological health"
+        psychologicalHealth.setActive()
+        physicalHealthButton.setInactive()
+        strengtheningButton.setInactive()
+        weightLossButton.setInactive()
+    }
     
     internal func customizeUI() {
         physicalHealthButton.addBorder()

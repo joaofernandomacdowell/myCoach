@@ -15,6 +15,20 @@ class QuestGenderViewController: UIViewController {
     @IBOutlet weak var femaleButton: CustomButton!
     @IBOutlet weak var questionLabel: QuestionLabel!
     
+    var gender: String = ""
+    
+    @IBAction func onClickMale(_ sender: UIButton) {
+        gender = "male"
+        maleButton.setActive()
+        femaleButton.setInactive()
+    }
+    
+    @IBAction func onClickFemale(_ sender: UIButton) {
+        gender = "female"
+        femaleButton.setActive()
+        maleButton.setInactive()
+    }
+    
     
     internal func customizeUI () {
         maleButton.addBorder()
@@ -29,7 +43,6 @@ class QuestGenderViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }
