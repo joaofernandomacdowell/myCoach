@@ -19,12 +19,5 @@ import UIKit
         self.titleEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10)
         
     }
-    
-    public func addBgColor() {
-        
-        let bgColor = UIColor(red:0.39, green:0.58, blue:0.93, alpha:1.0)
-        self.layer.backgroundColor = bgColor.cgColor
-        
-    }
 
 }
