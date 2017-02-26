@@ -40,7 +40,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to myCoach!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpv-ma-eVx">
-                                <rect key="frame" x="41.5" y="62" width="238.5" height="38"/>
+                                <rect key="frame" x="41" y="62" width="238.5" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="NSc-Om-dUD"/>
                                 </constraints>
@@ -57,6 +57,9 @@
                                 <state key="normal" title="MALE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickMale:" destination="BYZ-38-t0r" eventType="touchUpInside" id="98j-Tc-qMq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oml-lE-CHR" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="278.5" width="230" height="45"/>
@@ -67,6 +70,9 @@
                                 <state key="normal" title="FEMALE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickFemale:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KVX-BU-0aT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -109,7 +115,7 @@
         <!--History View Controller-->
         <scene sceneID="uQM-a8-sUQ">
             <objects>
-                <viewController storyboardIdentifier="History" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1tc-80-MnI" customClass="HistoryViewController" customModule="myCoach" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="History" storyboardIdentifier="History" id="1tc-80-MnI" customClass="HistoryViewController" customModule="myCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="j21-Mg-8xg"/>
                         <viewControllerLayoutGuide type="bottom" id="fu4-HY-FlJ"/>
@@ -160,6 +166,11 @@
                                 <state key="normal" title="TOTALLY IN SHAPE">
                                     <color key="titleColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickTotallyInShape:" destination="eeM-jL-qEI" eventType="touchUpInside" id="YNd-Ln-9y8"/>
+                                    <action selector="onClickTotallyInShapeButton:" destination="eeM-jL-qEI" eventType="touchUpInside" id="10I-ZP-wKx"/>
+                                    <action selector="onTotallyInShape:" destination="eeM-jL-qEI" eventType="touchUpInside" id="LNz-J3-ihB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4Z-YO-0Sk" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="278.5" width="230" height="45"/>
@@ -170,6 +181,9 @@
                                 <state key="normal" title="IN SHAPE">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickInShape:" destination="eeM-jL-qEI" eventType="touchUpInside" id="a0V-fT-vVE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-Sm-34U" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="343.5" width="230" height="45"/>
@@ -180,6 +194,9 @@
                                 <state key="normal" title="OUT OF SHAPE">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickOutOfShape:" destination="eeM-jL-qEI" eventType="touchUpInside" id="stg-r8-sKM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -203,9 +220,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="inShapeButton" destination="M4Z-YO-0Sk" id="BC3-I8-SPg"/>
-                        <outlet property="outOfShapeButton" destination="Whl-Sm-34U" id="QPs-90-e1D"/>
-                        <outlet property="totallyInShapeButton" destination="cUD-z1-7tQ" id="IIt-gR-rew"/>
+                        <outlet property="inShapeButton" destination="M4Z-YO-0Sk" id="eYq-6e-dtW"/>
+                        <outlet property="outOfShapeButton" destination="Whl-Sm-34U" id="j6X-2o-f7m"/>
+                        <outlet property="totallyInShapeButton" destination="cUD-z1-7tQ" id="HPL-xh-epu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGc-Is-AY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -239,6 +256,10 @@
                                 <state key="normal" title="PHYSICAL HEALTH">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickPhysicalHealth:" destination="39Q-h6-fHI" eventType="touchUpInside" id="44p-4l-7P8"/>
+                                    <action selector="onClickStrengthening:" destination="39Q-h6-fHI" eventType="touchUpInside" id="u1X-6k-JJt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiY-zN-mqq" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="278.5" width="230" height="45"/>
@@ -249,6 +270,9 @@
                                 <state key="normal" title="STRENGTHENING">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickStrengthening:" destination="39Q-h6-fHI" eventType="touchUpInside" id="OmL-dk-j7p"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3G-AA-vPK" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="343.5" width="230" height="45"/>
@@ -259,6 +283,9 @@
                                 <state key="normal" title="WEIGHT LOSS">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickWeightLoss:" destination="39Q-h6-fHI" eventType="touchUpInside" id="673-hI-6Es"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDa-3i-wL9" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="408.5" width="230" height="45"/>
@@ -269,6 +296,9 @@
                                 <state key="normal" title="PSYCHOLOGICAL HEALTH">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickPychologicalHealth:" destination="39Q-h6-fHI" eventType="touchUpInside" id="Kom-V1-I2G"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -282,7 +312,6 @@
                             <constraint firstItem="xiY-zN-mqq" firstAttribute="centerX" secondItem="bfa-91-siA" secondAttribute="centerX" id="Mo3-ug-l7M"/>
                             <constraint firstItem="PDa-3i-wL9" firstAttribute="leading" secondItem="bfa-91-siA" secondAttribute="leadingMargin" constant="29" id="P2u-sS-ZZ6"/>
                             <constraint firstItem="f3G-AA-vPK" firstAttribute="top" secondItem="xiY-zN-mqq" secondAttribute="bottom" constant="20" id="PBW-gH-jDI"/>
-                            <constraint firstItem="xiY-zN-mqq" firstAttribute="top" secondItem="VjH-md-VbQ" secondAttribute="bottom" constant="20" id="Quz-ex-gxP"/>
                             <constraint firstItem="VjH-md-VbQ" firstAttribute="centerX" secondItem="bfa-91-siA" secondAttribute="centerX" id="Tae-YJ-DFJ"/>
                             <constraint firstItem="PDa-3i-wL9" firstAttribute="centerX" secondItem="bfa-91-siA" secondAttribute="centerX" id="avw-h1-ZCv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PDa-3i-wL9" secondAttribute="trailing" constant="29" id="bhQ-IL-Q8p"/>
@@ -597,12 +626,15 @@
                                     <navigationItem title="SIGN UP" id="kIt-kO-zLe">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="442-2H-79l">
                                             <color key="tintColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="g5H-xP-raA" kind="show" id="mrA-9W-bov"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MP6-ip-doX">
-                                <rect key="frame" x="149" y="336" width="22" height="19.5"/>
+                                <rect key="frame" x="149" y="336" width="22" height="20"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -622,7 +654,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Q0-Hp-WHU">
-                                <rect key="frame" x="60" y="384" width="200" height="40"/>
+                                <rect key="frame" x="60" y="385" width="200" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="0D1-W2-abq"/>
                                     <constraint firstAttribute="height" constant="40" id="bay-Mk-JC0"/>
@@ -630,12 +662,15 @@
                                 <state key="normal" backgroundImage="sign-in-google.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZj-Rm-F5n">
-                                <rect key="frame" x="60" y="428" width="200" height="40"/>
+                                <rect key="frame" x="60" y="429" width="200" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="iGW-qo-xjp"/>
                                     <constraint firstAttribute="height" constant="40" id="zc8-AR-c1X"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="sign-in-facebook.png"/>
+                                <connections>
+                                    <action selector="facebookLoginWithSender:" destination="SUA-KH-dtG" eventType="touchUpInside" id="Leg-td-cJf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
