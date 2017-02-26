@@ -12,7 +12,6 @@ class InitialViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
 
@@ -20,6 +19,4 @@ class InitialViewController: UIViewController {
         super.didReceiveMemoryWarning()
         
     }
-    
-    
 }
