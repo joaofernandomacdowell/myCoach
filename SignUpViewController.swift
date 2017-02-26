@@ -17,8 +17,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var confirmPasswordTextField: CustomTextField!
     @IBOutlet weak var signInButton: CustomButton!
     
-    @IBAction func createAccountBt(_ sender: Any) {
-        
+    @IBAction func signUpButton(_ sender: Any) {
         let hasEmail = inputIsFilled(textField: emailTextField)
         let hasPassword = inputIsFilled(textField: passwordTextField)
         let hasConfirmedPassword = inputIsFilled(textField: confirmPasswordTextField)
@@ -28,7 +27,6 @@ class SignUpViewController: UIViewController {
             sendDataToFirebase()
         }
     }
-    
         
     public func goToView(viewIdentifier: String) {
         let viewController = self.storyboard?.instantiateViewController(withIdentifier: viewIdentifier)
@@ -89,7 +87,6 @@ class SignUpViewController: UIViewController {
     }
     
     internal func customizeUI() {
-        signInButton.addBgColor()
         emailTextField.addBottomBorder()
         passwordTextField.addBottomBorder()
         confirmPasswordTextField.addBottomBorder()
