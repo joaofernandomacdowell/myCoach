@@ -40,7 +40,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to myCoach!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpv-ma-eVx">
-                                <rect key="frame" x="41" y="62" width="238.5" height="38"/>
+                                <rect key="frame" x="41.5" y="62" width="238.5" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="NSc-Om-dUD"/>
                                 </constraints>
@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-274" y="-656"/>
+            <point key="canvasLocation" x="-294" y="-657"/>
         </scene>
         <!--Page Quests Controller-->
         <scene sceneID="T0N-5A-VQh">
@@ -133,10 +133,10 @@
             </objects>
             <point key="canvasLocation" x="-294" y="727"/>
         </scene>
-        <!--View Controller-->
+        <!--Quest Shape View Controller-->
         <scene sceneID="6Sr-1c-cXC">
             <objects>
-                <viewController restorationIdentifier="QuestShape" storyboardIdentifier="QuestShape" id="eeM-jL-qEI" sceneMemberID="viewController">
+                <viewController restorationIdentifier="QuestShape" storyboardIdentifier="QuestShape" id="eeM-jL-qEI" customClass="QuestShapeViewController" customModule="myCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="w6v-1S-zEe"/>
                         <viewControllerLayoutGuide type="bottom" id="5Hc-L1-DfW"/>
@@ -146,30 +146,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you consider yourself?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbc-qg-5k1" customClass="QuestionLabel" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="16" y="155" width="288" height="28"/>
+                                <rect key="frame" x="16" y="155" width="288" height="27.5"/>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUD-z1-7tQ">
-                                <rect key="frame" x="45" y="213.5" width="230" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUD-z1-7tQ" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="213" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="fcF-A7-Rgh"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="TOTALLY IN SHAPE">
                                     <color key="titleColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4Z-YO-0Sk">
-                                <rect key="frame" x="45" y="265.5" width="230" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4Z-YO-0Sk" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="278" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="bxW-H8-hXh"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="IN SHAPE">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-Sm-34U">
-                                <rect key="frame" x="45" y="317.5" width="230" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-Sm-34U" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="343" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="JFF-uj-TME"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="OUT OF SHAPE">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -178,21 +184,38 @@
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="10o-39-Pmq"/>
+                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="BYH-iK-OCU"/>
                             <constraint firstItem="Pbc-qg-5k1" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" id="KN0-7s-FGH"/>
+                            <constraint firstItem="cUD-z1-7tQ" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="NYc-U5-DKI"/>
+                            <constraint firstItem="cUD-z1-7tQ" firstAttribute="top" secondItem="Pbc-qg-5k1" secondAttribute="bottom" constant="30.5" id="OBa-GN-dm6"/>
                             <constraint firstItem="Pbc-qg-5k1" firstAttribute="top" secondItem="w6v-1S-zEe" secondAttribute="bottom" constant="135" id="OJ3-o8-VB2"/>
+                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="top" secondItem="cUD-z1-7tQ" secondAttribute="bottom" constant="20" id="PsO-HH-RPf"/>
                             <constraint firstItem="Pbc-qg-5k1" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="TRm-4m-Nij"/>
+                            <constraint firstItem="Whl-Sm-34U" firstAttribute="top" secondItem="M4Z-YO-0Sk" secondAttribute="bottom" constant="20" id="Umc-VS-5tB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cUD-z1-7tQ" secondAttribute="trailing" constant="29" id="Yfg-YQ-PKV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M4Z-YO-0Sk" secondAttribute="trailing" constant="29" id="dtq-ia-Etm"/>
+                            <constraint firstItem="Whl-Sm-34U" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="gG3-bN-4ha"/>
+                            <constraint firstItem="cUD-z1-7tQ" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="jaZ-2V-omp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Whl-Sm-34U" secondAttribute="trailing" constant="29" id="tfj-Tt-XPX"/>
                             <constraint firstItem="Pbc-qg-5k1" firstAttribute="trailing" secondItem="h5v-Wv-aZr" secondAttribute="trailingMargin" id="zAy-tE-m8C"/>
+                            <constraint firstItem="Whl-Sm-34U" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="zhw-zA-mPG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="inShapeButton" destination="M4Z-YO-0Sk" id="BC3-I8-SPg"/>
+                        <outlet property="outOfShapeButton" destination="Whl-Sm-34U" id="QPs-90-e1D"/>
+                        <outlet property="totallyInShapeButton" destination="cUD-z1-7tQ" id="IIt-gR-rew"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGc-Is-AY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="375" y="-657"/>
+            <point key="canvasLocation" x="362" y="-657"/>
         </scene>
-        <!--View Controller-->
+        <!--Quest Objective View Controller-->
         <scene sceneID="gTr-jf-Hsg">
             <objects>
-                <viewController restorationIdentifier="QuestMainObjective" storyboardIdentifier="QuestMainObjective" id="39Q-h6-fHI" sceneMemberID="viewController">
+                <viewController restorationIdentifier="QuestMainObjective" storyboardIdentifier="QuestMainObjective" id="39Q-h6-fHI" customClass="QuestObjectiveViewController" customModule="myCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7AZ-bl-rjm"/>
                         <viewControllerLayoutGuide type="bottom" id="cI0-zh-OWJ"/>
@@ -202,35 +225,46 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your main objective?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abi-kd-fj4" customClass="QuestionLabel" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="16" y="155" width="288" height="28"/>
+                                <rect key="frame" x="16" y="155" width="288" height="27.5"/>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VjH-md-VbQ">
-                                <rect key="frame" x="45" y="221" width="230" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VjH-md-VbQ" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="213" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="H73-RZ-OKb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="PHYSICAL HEALTH">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiY-zN-mqq">
-                                <rect key="frame" x="45" y="273" width="230" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiY-zN-mqq" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="278" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="eCD-KZ-cSY"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="STRENGTHENING">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3G-AA-vPK">
-                                <rect key="frame" x="45" y="325" width="230" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3G-AA-vPK" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="343" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="DeI-yQ-4kc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="WEIGHT LOSS">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVg-w8-qti">
-                                <rect key="frame" x="50" y="373" width="230" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDa-3i-wL9" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="408" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="pcw-NK-eL5"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="PSYCHOLOGICAL HEALTH">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -239,23 +273,44 @@
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="PDa-3i-wL9" firstAttribute="top" secondItem="f3G-AA-vPK" secondAttribute="bottom" constant="20" id="2eP-0Z-sEi"/>
+                            <constraint firstItem="f3G-AA-vPK" firstAttribute="leading" secondItem="bfa-91-siA" secondAttribute="leadingMargin" constant="29" id="5Ve-ux-zhw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VjH-md-VbQ" secondAttribute="trailing" constant="29" id="D8E-gw-0l2"/>
                             <constraint firstItem="abi-kd-fj4" firstAttribute="trailing" secondItem="bfa-91-siA" secondAttribute="trailingMargin" id="Fkr-E0-LgJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f3G-AA-vPK" secondAttribute="trailing" constant="29" id="Geg-NT-5ZN"/>
+                            <constraint firstItem="xiY-zN-mqq" firstAttribute="leading" secondItem="bfa-91-siA" secondAttribute="leadingMargin" constant="29" id="Lhw-UI-lHJ"/>
+                            <constraint firstItem="xiY-zN-mqq" firstAttribute="centerX" secondItem="bfa-91-siA" secondAttribute="centerX" id="Mo3-ug-l7M"/>
+                            <constraint firstItem="PDa-3i-wL9" firstAttribute="leading" secondItem="bfa-91-siA" secondAttribute="leadingMargin" constant="29" id="P2u-sS-ZZ6"/>
                             <constraint firstItem="f3G-AA-vPK" firstAttribute="top" secondItem="xiY-zN-mqq" secondAttribute="bottom" constant="20" id="PBW-gH-jDI"/>
+                            <constraint firstItem="xiY-zN-mqq" firstAttribute="top" secondItem="VjH-md-VbQ" secondAttribute="bottom" constant="20" id="Quz-ex-gxP"/>
+                            <constraint firstItem="VjH-md-VbQ" firstAttribute="centerX" secondItem="bfa-91-siA" secondAttribute="centerX" id="Tae-YJ-DFJ"/>
+                            <constraint firstItem="PDa-3i-wL9" firstAttribute="centerX" secondItem="bfa-91-siA" secondAttribute="centerX" id="avw-h1-ZCv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PDa-3i-wL9" secondAttribute="trailing" constant="29" id="bhQ-IL-Q8p"/>
                             <constraint firstItem="abi-kd-fj4" firstAttribute="leading" secondItem="bfa-91-siA" secondAttribute="leadingMargin" id="gbM-ls-3gu"/>
                             <constraint firstItem="abi-kd-fj4" firstAttribute="centerX" secondItem="bfa-91-siA" secondAttribute="centerX" id="hot-VU-feS"/>
                             <constraint firstItem="abi-kd-fj4" firstAttribute="top" secondItem="7AZ-bl-rjm" secondAttribute="bottom" constant="135" id="kuh-PX-MDP"/>
+                            <constraint firstItem="VjH-md-VbQ" firstAttribute="top" secondItem="abi-kd-fj4" secondAttribute="bottom" constant="30.5" id="lh9-Dq-7n2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xiY-zN-mqq" secondAttribute="trailing" constant="29" id="mnK-fO-0Iu"/>
+                            <constraint firstItem="f3G-AA-vPK" firstAttribute="centerX" secondItem="bfa-91-siA" secondAttribute="centerX" id="rXU-zF-L4p"/>
                             <constraint firstItem="xiY-zN-mqq" firstAttribute="top" secondItem="VjH-md-VbQ" secondAttribute="bottom" constant="20" id="x78-7x-nFY"/>
+                            <constraint firstItem="VjH-md-VbQ" firstAttribute="leading" secondItem="bfa-91-siA" secondAttribute="leadingMargin" constant="29" id="zek-4I-OQ9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="physicalHealthButton" destination="VjH-md-VbQ" id="0Ev-Cg-oAU"/>
+                        <outlet property="psychologicalHealth" destination="PDa-3i-wL9" id="En4-hS-Dm9"/>
+                        <outlet property="strengtheningButton" destination="xiY-zN-mqq" id="icf-c8-iuC"/>
+                        <outlet property="weightLossButton" destination="f3G-AA-vPK" id="N51-rm-AH1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sYg-gq-KJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1041" y="-657"/>
+            <point key="canvasLocation" x="1005" y="-657"/>
         </scene>
-        <!--View Controller-->
+        <!--Quest Bad Habits View Controller-->
         <scene sceneID="IS3-l9-h4S">
             <objects>
-                <viewController restorationIdentifier="QuestBadHabits" storyboardIdentifier="QuestBadHabits" id="JSV-bG-7cH" sceneMemberID="viewController">
+                <viewController restorationIdentifier="QuestBadHabits" storyboardIdentifier="QuestBadHabits" id="JSV-bG-7cH" customClass="QuestBadHabitsViewController" customModule="myCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L54-eN-q0P"/>
                         <viewControllerLayoutGuide type="bottom" id="jG5-UI-eBY"/>
@@ -264,25 +319,92 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you have any bad habits?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69u-Md-kNr" customClass="QuestionLabel" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="16" y="177" width="288" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you have any bad habits?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69u-Md-kNr" customClass="QuestionLabel" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="16" y="155" width="288" height="27.5"/>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSF-rg-59e" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="213" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="LGj-2v-3yg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="I'M A SMOKER">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ly3-g3-Lkx" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="278" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="ifZ-mQ-hCP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="I'M A FAST FOOD ADDICT">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWU-cH-EWG" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="343" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="MSv-vY-kjF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="I'M LAZY">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3Q-f1-7ot" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="408" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="6i2-8t-HdH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="I SKIP MEALS">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ly3-g3-Lkx" firstAttribute="top" secondItem="iSF-rg-59e" secondAttribute="bottom" constant="20" id="3K9-fr-gje"/>
+                            <constraint firstItem="PWU-cH-EWG" firstAttribute="leading" secondItem="0HN-0k-mLb" secondAttribute="leadingMargin" constant="29" id="Auk-4t-OaM"/>
+                            <constraint firstItem="Ly3-g3-Lkx" firstAttribute="leading" secondItem="0HN-0k-mLb" secondAttribute="leadingMargin" constant="29" id="MKT-xa-hli"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="n3Q-f1-7ot" secondAttribute="trailing" constant="29" id="N7n-0Q-nnS"/>
+                            <constraint firstItem="iSF-rg-59e" firstAttribute="top" secondItem="69u-Md-kNr" secondAttribute="bottom" constant="30.5" id="NkE-Xo-4wI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iSF-rg-59e" secondAttribute="trailing" constant="29" id="NmM-oX-plo"/>
+                            <constraint firstItem="PWU-cH-EWG" firstAttribute="top" secondItem="Ly3-g3-Lkx" secondAttribute="bottom" constant="20" id="PM5-8z-zVo"/>
+                            <constraint firstItem="69u-Md-kNr" firstAttribute="top" secondItem="L54-eN-q0P" secondAttribute="bottom" constant="135" id="S8d-vX-lNF"/>
+                            <constraint firstItem="69u-Md-kNr" firstAttribute="leading" secondItem="0HN-0k-mLb" secondAttribute="leadingMargin" id="Sdf-IY-e3i"/>
+                            <constraint firstItem="iSF-rg-59e" firstAttribute="centerX" secondItem="0HN-0k-mLb" secondAttribute="centerX" id="SnU-vK-YpX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ly3-g3-Lkx" secondAttribute="trailing" constant="29" id="b8K-An-0dN"/>
+                            <constraint firstItem="69u-Md-kNr" firstAttribute="trailing" secondItem="0HN-0k-mLb" secondAttribute="trailingMargin" id="chv-Wr-3Hv"/>
+                            <constraint firstItem="Ly3-g3-Lkx" firstAttribute="centerX" secondItem="0HN-0k-mLb" secondAttribute="centerX" id="cws-dz-ezG"/>
+                            <constraint firstItem="69u-Md-kNr" firstAttribute="centerX" secondItem="0HN-0k-mLb" secondAttribute="centerX" id="dV9-zo-vIY"/>
+                            <constraint firstItem="n3Q-f1-7ot" firstAttribute="top" secondItem="PWU-cH-EWG" secondAttribute="bottom" constant="20" id="dmh-VZ-ocm"/>
+                            <constraint firstItem="iSF-rg-59e" firstAttribute="leading" secondItem="0HN-0k-mLb" secondAttribute="leadingMargin" constant="29" id="eRO-GK-Cbs"/>
+                            <constraint firstItem="PWU-cH-EWG" firstAttribute="centerX" secondItem="0HN-0k-mLb" secondAttribute="centerX" id="fMR-pN-W1q"/>
+                            <constraint firstItem="n3Q-f1-7ot" firstAttribute="centerX" secondItem="0HN-0k-mLb" secondAttribute="centerX" id="fy8-kG-JhZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PWU-cH-EWG" secondAttribute="trailing" constant="29" id="sXK-sq-tlp"/>
+                            <constraint firstItem="n3Q-f1-7ot" firstAttribute="leading" secondItem="0HN-0k-mLb" secondAttribute="leadingMargin" constant="29" id="wtc-In-x2r"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fastFoodButton" destination="Ly3-g3-Lkx" id="1NK-g6-3dY"/>
+                        <outlet property="lazyButton" destination="PWU-cH-EWG" id="0Bb-4u-sMG"/>
+                        <outlet property="skipMealsButton" destination="n3Q-f1-7ot" id="h7o-Lb-7pU"/>
+                        <outlet property="smokerButton" destination="iSF-rg-59e" id="e78-SR-Zpp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SPG-A3-gqC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1851" y="-657"/>
+            <point key="canvasLocation" x="1648" y="-657"/>
         </scene>
-        <!--View Controller-->
+        <!--Quest Time View Controller-->
         <scene sceneID="AwU-xm-3Lb">
             <objects>
-                <viewController restorationIdentifier="QuestTime" storyboardIdentifier="QuestTime" id="M5z-4f-Qhi" sceneMemberID="viewController">
+                <viewController restorationIdentifier="QuestTime" storyboardIdentifier="QuestTime" id="M5z-4f-Qhi" customClass="QuestTimeViewController" customModule="myCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nPL-Ej-Vfv"/>
                         <viewControllerLayoutGuide type="bottom" id="5Xz-bM-Fxi"/>
@@ -291,20 +413,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How much time do you want to invest in workout daily?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgN-eM-MeU" customClass="QuestionLabel" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="24" y="148" width="273" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How much time do you want to invest in workout daily?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgN-eM-MeU" customClass="QuestionLabel" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="16" y="155" width="288" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="bna-2T-LU1"/>
+                                    <constraint firstAttribute="width" constant="288" id="i2p-WQ-Br7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="he7-7B-1dq" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="242" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Afp-7u-K8Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="30-60 MINUTES">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xu-1w-hIW" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="307" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="SYe-B2-rFH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="60-120 MINUTES">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EgN-eM-MeU" firstAttribute="centerX" secondItem="AmW-rj-0wk" secondAttribute="centerX" id="27a-y0-QZN"/>
+                            <constraint firstItem="EgN-eM-MeU" firstAttribute="top" secondItem="nPL-Ej-Vfv" secondAttribute="bottom" constant="135" id="2ya-l1-eWZ"/>
+                            <constraint firstItem="5xu-1w-hIW" firstAttribute="centerX" secondItem="AmW-rj-0wk" secondAttribute="centerX" id="7KU-2g-qVR"/>
+                            <constraint firstItem="he7-7B-1dq" firstAttribute="centerX" secondItem="AmW-rj-0wk" secondAttribute="centerX" id="9a8-Nq-qB4"/>
+                            <constraint firstItem="he7-7B-1dq" firstAttribute="top" secondItem="EgN-eM-MeU" secondAttribute="bottom" constant="30.5" id="Ldh-6x-CIH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="he7-7B-1dq" secondAttribute="trailing" constant="29" id="M60-CZ-Swc"/>
+                            <constraint firstItem="he7-7B-1dq" firstAttribute="leading" secondItem="AmW-rj-0wk" secondAttribute="leadingMargin" constant="29" id="RMC-yP-Aab"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5xu-1w-hIW" secondAttribute="trailing" constant="29" id="Tyy-cV-qkK"/>
+                            <constraint firstItem="5xu-1w-hIW" firstAttribute="top" secondItem="he7-7B-1dq" secondAttribute="bottom" constant="20" id="uUF-qn-jkx"/>
+                            <constraint firstItem="5xu-1w-hIW" firstAttribute="leading" secondItem="AmW-rj-0wk" secondAttribute="leadingMargin" constant="29" id="yZ5-AR-I7A"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="sixtyToButton" destination="5xu-1w-hIW" id="iMo-2G-qtw"/>
+                        <outlet property="thirtyToButton" destination="he7-7B-1dq" id="rhA-nk-V3E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fGB-Ta-j9L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2533" y="-657"/>
+            <point key="canvasLocation" x="2298.75" y="-657.04225352112678"/>
         </scene>
         <!--Initial View Controller-->
         <scene sceneID="MFj-8U-aj2">
@@ -456,7 +617,7 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MP6-ip-doX">
-                                <rect key="frame" x="149" y="335" width="22" height="20"/>
+                                <rect key="frame" x="149" y="335" width="22" height="19.5"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>

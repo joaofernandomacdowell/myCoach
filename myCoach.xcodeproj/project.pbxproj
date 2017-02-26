@@ -34,6 +34,10 @@
 		CFE09E6F1E60E36800C7932C /* sign-in-google.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE09E6E1E60E36800C7932C /* sign-in-google.png */; };
 		CFE09E711E60E39A00C7932C /* sign-in-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE09E701E60E39A00C7932C /* sign-in-facebook.png */; };
 		CFE09E761E62578700C7932C /* PageQuestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE09E751E62578700C7932C /* PageQuestsController.swift */; };
+		CFE09E791E62742300C7932C /* QuestShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE09E781E62742300C7932C /* QuestShapeViewController.swift */; };
+		CFE09E7B1E6274AE00C7932C /* QuestObjectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE09E7A1E6274AE00C7932C /* QuestObjectiveViewController.swift */; };
+		CFE09E7D1E6274E100C7932C /* QuestBadHabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE09E7C1E6274E100C7932C /* QuestBadHabitsViewController.swift */; };
+		CFE09E7F1E62750200C7932C /* QuestTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE09E7E1E62750200C7932C /* QuestTimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,10 @@
 		CFE09E6E1E60E36800C7932C /* sign-in-google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-google.png"; sourceTree = "<group>"; };
 		CFE09E701E60E39A00C7932C /* sign-in-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-facebook.png"; sourceTree = "<group>"; };
 		CFE09E751E62578700C7932C /* PageQuestsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageQuestsController.swift; sourceTree = "<group>"; };
+		CFE09E781E62742300C7932C /* QuestShapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestShapeViewController.swift; sourceTree = "<group>"; };
+		CFE09E7A1E6274AE00C7932C /* QuestObjectiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestObjectiveViewController.swift; sourceTree = "<group>"; };
+		CFE09E7C1E6274E100C7932C /* QuestBadHabitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestBadHabitsViewController.swift; sourceTree = "<group>"; };
+		CFE09E7E1E62750200C7932C /* QuestTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestTimeViewController.swift; sourceTree = "<group>"; };
 		F66DAD33F5C844028AB43B45 /* Pods-myCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCoach.release.xcconfig"; path = "Pods/Target Support Files/Pods-myCoach/Pods-myCoach.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,7 +140,6 @@
 				CF4622961E5557AD0022D7A1 /* Assets.xcassets */,
 				CF4622981E5557AD0022D7A1 /* LaunchScreen.storyboard */,
 				CF46229B1E5557AD0022D7A1 /* Info.plist */,
-				CFE09E751E62578700C7932C /* PageQuestsController.swift */,
 			);
 			path = myCoach;
 			sourceTree = "<group>";
@@ -184,8 +191,8 @@
 		CFDD13491E5E59A300B1E85E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CFE09E771E62739100C7932C /* Questions */,
 				CFDD13471E5E58FC00B1E85E /* SignUpViewController.swift */,
-				CF4622911E5557AD0022D7A1 /* QuestGenderViewController.swift */,
 				CF5DA7A61E5F442C00545C6F /* InitialViewController.swift */,
 				CF5DA7A81E5F628B00545C6F /* HistoryViewController.swift */,
 			);
@@ -198,6 +205,19 @@
 				CFDD134B1E5E71A700B1E85E /* CustomTextField.swift */,
 			);
 			name = TextFields;
+			sourceTree = "<group>";
+		};
+		CFE09E771E62739100C7932C /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				CFE09E751E62578700C7932C /* PageQuestsController.swift */,
+				CF4622911E5557AD0022D7A1 /* QuestGenderViewController.swift */,
+				CFE09E781E62742300C7932C /* QuestShapeViewController.swift */,
+				CFE09E7A1E6274AE00C7932C /* QuestObjectiveViewController.swift */,
+				CFE09E7C1E6274E100C7932C /* QuestBadHabitsViewController.swift */,
+				CFE09E7E1E62750200C7932C /* QuestTimeViewController.swift */,
+			);
+			name = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,8 +363,12 @@
 				CF4622921E5557AD0022D7A1 /* QuestGenderViewController.swift in Sources */,
 				CFDD134C1E5E71A700B1E85E /* CustomTextField.swift in Sources */,
 				CF4622901E5557AD0022D7A1 /* AppDelegate.swift in Sources */,
+				CFE09E7F1E62750200C7932C /* QuestTimeViewController.swift in Sources */,
+				CFE09E791E62742300C7932C /* QuestShapeViewController.swift in Sources */,
 				CF4622C61E574D710022D7A1 /* QuestionLabel.swift in Sources */,
 				CF4622AD1E5611570022D7A1 /* CustomButton.swift in Sources */,
+				CFE09E7D1E6274E100C7932C /* QuestBadHabitsViewController.swift in Sources */,
+				CFE09E7B1E6274AE00C7932C /* QuestObjectiveViewController.swift in Sources */,
 				CF5DA7A71E5F442C00545C6F /* InitialViewController.swift in Sources */,
 				CF5DA7A91E5F628B00545C6F /* HistoryViewController.swift in Sources */,
 			);

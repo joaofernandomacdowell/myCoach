@@ -16,8 +16,7 @@ class QuestGenderViewController: UIViewController {
     @IBOutlet weak var questionLabel: QuestionLabel!
     
     
-    internal func customizeUI () {   
-        questionLabel.setFontFamily()
+    internal func customizeUI () {
         maleButton.addBorder()
         femaleButton.addBorder()
     }
