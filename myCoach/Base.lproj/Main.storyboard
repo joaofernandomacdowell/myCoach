@@ -157,25 +157,10 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUD-z1-7tQ" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
-                                <rect key="frame" x="45" y="213.5" width="230" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="fcF-A7-Rgh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
-                                <state key="normal" title="TOTALLY IN SHAPE">
-                                    <color key="titleColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onClickTotallyInShape:" destination="eeM-jL-qEI" eventType="touchUpInside" id="YNd-Ln-9y8"/>
-                                    <action selector="onClickTotallyInShapeButton:" destination="eeM-jL-qEI" eventType="touchUpInside" id="10I-ZP-wKx"/>
-                                    <action selector="onTotallyInShape:" destination="eeM-jL-qEI" eventType="touchUpInside" id="LNz-J3-ihB"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4Z-YO-0Sk" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="278.5" width="230" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="bxW-H8-hXh"/>
+                                    <constraint firstAttribute="height" constant="45" id="F4R-3l-WRX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="IN SHAPE">
@@ -188,7 +173,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-Sm-34U" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="343.5" width="230" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="JFF-uj-TME"/>
+                                    <constraint firstAttribute="height" constant="45" id="JBr-sm-ivo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                 <state key="normal" title="OUT OF SHAPE">
@@ -198,31 +183,44 @@
                                     <action selector="onClickOutOfShape:" destination="eeM-jL-qEI" eventType="touchUpInside" id="stg-r8-sKM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiH-xB-BCD" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
+                                <rect key="frame" x="45" y="213.5" width="230" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="sTW-bI-LVR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="TOTALLY IN SHAPE">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickTotallyInShape:" destination="eeM-jL-qEI" eventType="touchUpInside" id="9wM-H8-NbU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="10o-39-Pmq"/>
-                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="BYH-iK-OCU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M4Z-YO-0Sk" secondAttribute="trailing" constant="29" id="3zj-Me-rmn"/>
+                            <constraint firstItem="Whl-Sm-34U" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="9CP-2o-hK5"/>
+                            <constraint firstItem="AiH-xB-BCD" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="9yh-t8-U8p"/>
+                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="top" secondItem="AiH-xB-BCD" secondAttribute="bottom" constant="20" id="EeF-Dw-0OJ"/>
                             <constraint firstItem="Pbc-qg-5k1" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" id="KN0-7s-FGH"/>
-                            <constraint firstItem="cUD-z1-7tQ" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="NYc-U5-DKI"/>
-                            <constraint firstItem="cUD-z1-7tQ" firstAttribute="top" secondItem="Pbc-qg-5k1" secondAttribute="bottom" constant="30.5" id="OBa-GN-dm6"/>
+                            <constraint firstItem="AiH-xB-BCD" firstAttribute="top" secondItem="Pbc-qg-5k1" secondAttribute="bottom" constant="31" id="O1J-Jc-1xc"/>
                             <constraint firstItem="Pbc-qg-5k1" firstAttribute="top" secondItem="w6v-1S-zEe" secondAttribute="bottom" constant="135" id="OJ3-o8-VB2"/>
-                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="top" secondItem="cUD-z1-7tQ" secondAttribute="bottom" constant="20" id="PsO-HH-RPf"/>
+                            <constraint firstItem="AiH-xB-BCD" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="QkD-XV-WIQ"/>
                             <constraint firstItem="Pbc-qg-5k1" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="TRm-4m-Nij"/>
-                            <constraint firstItem="Whl-Sm-34U" firstAttribute="top" secondItem="M4Z-YO-0Sk" secondAttribute="bottom" constant="20" id="Umc-VS-5tB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cUD-z1-7tQ" secondAttribute="trailing" constant="29" id="Yfg-YQ-PKV"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="M4Z-YO-0Sk" secondAttribute="trailing" constant="29" id="dtq-ia-Etm"/>
-                            <constraint firstItem="Whl-Sm-34U" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="gG3-bN-4ha"/>
-                            <constraint firstItem="cUD-z1-7tQ" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="jaZ-2V-omp"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Whl-Sm-34U" secondAttribute="trailing" constant="29" id="tfj-Tt-XPX"/>
+                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="dUy-0M-AQg"/>
+                            <constraint firstItem="Whl-Sm-34U" firstAttribute="centerX" secondItem="h5v-Wv-aZr" secondAttribute="centerX" id="g6P-yy-Z25"/>
+                            <constraint firstItem="Whl-Sm-34U" firstAttribute="top" secondItem="M4Z-YO-0Sk" secondAttribute="bottom" constant="20" id="gCe-Jj-Ix0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Whl-Sm-34U" secondAttribute="trailing" constant="29" id="iFE-lk-t8E"/>
+                            <constraint firstItem="M4Z-YO-0Sk" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="lsZ-j4-18v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AiH-xB-BCD" secondAttribute="trailing" constant="29" id="xq5-JZ-ahD"/>
                             <constraint firstItem="Pbc-qg-5k1" firstAttribute="trailing" secondItem="h5v-Wv-aZr" secondAttribute="trailingMargin" id="zAy-tE-m8C"/>
-                            <constraint firstItem="Whl-Sm-34U" firstAttribute="leading" secondItem="h5v-Wv-aZr" secondAttribute="leadingMargin" constant="29" id="zhw-zA-mPG"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="inShapeButton" destination="M4Z-YO-0Sk" id="eYq-6e-dtW"/>
                         <outlet property="outOfShapeButton" destination="Whl-Sm-34U" id="j6X-2o-f7m"/>
-                        <outlet property="totallyInShapeButton" destination="cUD-z1-7tQ" id="HPL-xh-epu"/>
+                        <outlet property="totallyInShapeButton" destination="AiH-xB-BCD" id="upv-JB-HEo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGc-Is-AY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -258,7 +256,6 @@
                                 </state>
                                 <connections>
                                     <action selector="onClickPhysicalHealth:" destination="39Q-h6-fHI" eventType="touchUpInside" id="44p-4l-7P8"/>
-                                    <action selector="onClickStrengthening:" destination="39Q-h6-fHI" eventType="touchUpInside" id="u1X-6k-JJt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiY-zN-mqq" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">

@@ -15,9 +15,8 @@ class QuestShapeViewController: UIViewController {
     @IBOutlet weak var outOfShapeButton: CustomButton!
     
     var shape: String = ""
-    
   
-    @IBAction func onClickTotallyInShapeButton(_ sender: Any) {
+    @IBAction func onClickTotallyInShape(_ sender: Any) {
         shape = "totally in shape"
         totallyInShapeButton.setActive()
         inShapeButton.setInactive()
