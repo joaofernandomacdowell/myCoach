@@ -13,6 +13,19 @@ class QuestTimeViewController: UIViewController {
     @IBOutlet weak var thirtyToButton: CustomButton!
     @IBOutlet weak var sixtyToButton: CustomButton!
     
+    var time: String = ""
+    
+    @IBAction func onClickThrirty(_ sender: Any) {
+        time = "30-60"
+        thirtyToButton.setActive()
+        sixtyToButton.setInactive()
+    }
+    
+    @IBAction func onClickSixty(_ sender: Any) {
+        time = "60-120"
+        sixtyToButton.setActive()
+        thirtyToButton.setInactive()
+    }
     
     internal func customizeUI() {
         thirtyToButton.addBorder()
@@ -25,9 +38,7 @@ class QuestTimeViewController: UIViewController {
         customizeUI()
     }
 
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
     }
 }

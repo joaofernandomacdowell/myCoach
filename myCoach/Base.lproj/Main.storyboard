@@ -360,6 +360,9 @@
                                 <state key="normal" title="I'M A SMOKER">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickSmoker:" destination="JSV-bG-7cH" eventType="touchUpInside" id="eAX-lx-Llp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ly3-g3-Lkx" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="278.5" width="230" height="45"/>
@@ -370,6 +373,9 @@
                                 <state key="normal" title="I'M A FAST FOOD ADDICT">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickFastFood:" destination="JSV-bG-7cH" eventType="touchUpInside" id="f0H-Pq-h7c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWU-cH-EWG" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="343.5" width="230" height="45"/>
@@ -380,6 +386,9 @@
                                 <state key="normal" title="I'M LAZY">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickLazy:" destination="JSV-bG-7cH" eventType="touchUpInside" id="1PF-Jj-nS6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3Q-f1-7ot" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="408.5" width="230" height="45"/>
@@ -390,6 +399,9 @@
                                 <state key="normal" title="I SKIP MEALS">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickSkipMeals:" destination="JSV-bG-7cH" eventType="touchUpInside" id="qAR-Bk-qAi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -458,6 +470,9 @@
                                 <state key="normal" title="30-60 MINUTES">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickThrirty:" destination="M5z-4f-Qhi" eventType="touchUpInside" id="NOO-rk-M03"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xu-1w-hIW" customClass="CustomButton" customModule="myCoach" customModuleProvider="target">
                                 <rect key="frame" x="45" y="307" width="230" height="45"/>
@@ -468,6 +483,9 @@
                                 <state key="normal" title="60-120 MINUTES">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickSixty:" destination="M5z-4f-Qhi" eventType="touchUpInside" id="nmV-BL-M5f"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.082352941176470587" green="0.18823529411764706" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
