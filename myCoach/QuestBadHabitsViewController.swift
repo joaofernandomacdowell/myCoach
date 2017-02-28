@@ -15,26 +15,32 @@ class QuestBadHabitsViewController: UIViewController {
     @IBOutlet weak var lazyButton: CustomButton!
     @IBOutlet weak var skipMealsButton: CustomButton!
     
-    var badHabits: Array<String> = []
+    var badHabits: NSMutableArray = []
     
     @IBAction func onClickSmoker(_ sender: Any) {
-        badHabits.append("smoker")
-        smokerButton.setActive()
+        handleSelection(badHabitButton: smokerButton, badHabit: "smoker")
     }
     
     @IBAction func onClickFastFood(_ sender: Any) {
-        badHabits.append("fast food")
-        fastFoodButton.setActive()
+        handleSelection(badHabitButton: fastFoodButton, badHabit: "fast food")
     }
     
     @IBAction func onClickLazy(_ sender: Any) {
-        badHabits.append("lazy")
-        lazyButton.setActive()
+        handleSelection(badHabitButton: lazyButton, badHabit: "lazy")
     }
     
     @IBAction func onClickSkipMeals(_ sender: Any) {
-        badHabits.append("skip meals")
-        skipMealsButton.setActive()
+        handleSelection(badHabitButton: skipMealsButton, badHabit: "skip meals")
+    }
+    
+    internal func handleSelection(badHabitButton: CustomButton, badHabit: String) {
+        if badHabitButton.isTouchInside {
+            badHabitButton.setInactive()
+            badHabits.remove(badHabit)
+        } else {
+            badHabitButton.setActive()
+            badHabits.add(badHabit)
+        }
     }
     
     internal func customizeUI() {
